@@ -100,8 +100,8 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
-.lasr-paragraph{
-  
+.last-paragraph{
+text-align: justify;
 }
 /* About Section */
 .about,
