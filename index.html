@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Awesome Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Awesome Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">MySite</div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      
-      <button class="mode-toggle" id="modeToggle">🌙</button>
-      <div class="menu-icon" id="menuIcon">&#9776;</div>
-    </nav>
-  </header>
+        <button class="mode-toggle" id="modeToggle">🌙</button>
+        <div class="menu-icon" id="menuIcon">&#9776;</div>
+      </nav>
+    </header>
 
-  <!-- Hero -->
-  <section class="hero" id="home">
-    <h1 class="fade-in">Welcome to My Responsive Site</h1>
-    <p class="fade-in delay-1">This is a fully responsive layout built with HTML, CSS, and JavaScript.</p>
-    <button class="fade-in delay-2">Get Started</button>
-  </section>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <h1 class="fade-in">Welcome to My Responsive Site</h1>
+      <p class="fade-in delay-1">
+        This is a fully responsive layout built with HTML, CSS, and JavaScript.
+      </p>
+      <button class="fade-in delay-2">Get Started</button>
+    </section>
 
-  <!-- Features Section -->
-  <section class="cards" id="features">
-    <div class="card slide-up">
-      <h3>Responsive</h3>
-      <p>Adapts to any device screen size.</p>
-    </div>
-    <div class="card slide-up delay-1">
-      <h3>Modern Design</h3>
-      <p>Clean and modern UI components.</p>
-    </div>
-    <div class="card slide-up delay-2">
-      <h3>Easy to Edit</h3>
-      <p>Simple HTML & CSS structure.</p>
-    </div>
-  </section>
+    <!-- Features Section -->
+    <section class="cards" id="features">
+      <div class="card slide-up">
+        <h3>Responsive</h3>
+        <p>Adapts to any device screen size.</p>
+      </div>
+      <div class="card slide-up delay-1">
+        <h3>Modern Design</h3>
+        <p>Clean and modern UI components.</p>
+      </div>
+      <div class="card slide-up delay-2">
+        <h3>Easy to Edit</h3>
+        <p>Simple HTML & CSS structure.</p>
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We create beautiful and responsive websites that work on all devices. Whether you're a business or a personal brand, we help you shine online.</p>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We create beautiful and responsive websites that work on all devices.
+          Whether you're a business or a personal brand, we help you shine
+          online.
+        </p>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Have questions or want to work with us? Reach out now!</p>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to work with us? Reach out now!</p>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 MySite. All rights reserved.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 MySite. All rights reserved.</p>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
