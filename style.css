@@ -165,63 +165,62 @@ footer {
 /* light/dark mode */
 /* Dark Mode Button */
 .mode-toggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-left: 1rem;
-  }
-  
-  /* Dark Mode Styles */
-  body.dark-mode {
-    background-color: #1e1e1e;
-    color: #f0f0f0;
-  }
-  
-  body.dark-mode .navbar {
-    background: #111;
-  }
-  
-  body.dark-mode .nav-links {
-    background-color: #222;
-  }
-  
-  body.dark-mode .hero {
-    background: linear-gradient(135deg, #2e2e2e, #3b3b3b);
-    color: white;
-  }
-  
-  body.dark-mode .card {
-    background: #2b2b2b;
-    color: #f0f0f0;
-  }
-  
-  body.dark-mode .about,
-  body.dark-mode .contact {
-    background: #2a2a2a;
-    color: #f0f0f0;
-  }
-  
-  body.dark-mode form input,
-  body.dark-mode form textarea {
-    background: #333;
-    color: #fff;
-    border: 1px solid #444;
-  }
-  
-  body.dark-mode form button {
-    background: #666;
-  }
-  
-  body.dark-mode footer {
-    background: #111;
-  }
-  
-  body.dark-mode .mode-toggle {
-    color: #ffd700;
-  }
-  
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark-mode .navbar {
+  background: #111;
+}
+
+body.dark-mode .nav-links {
+  background-color: #222;
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #2e2e2e, #3b3b3b);
+  color: white;
+}
+
+body.dark-mode .card {
+  background: #2b2b2b;
+  color: #f0f0f0;
+}
+
+body.dark-mode .about,
+body.dark-mode .contact {
+  background: #2a2a2a;
+  color: #f0f0f0;
+}
+
+body.dark-mode form input,
+body.dark-mode form textarea {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode form button {
+  background: #666;
+}
+
+body.dark-mode footer {
+  background: #111;
+}
+
+body.dark-mode .mode-toggle {
+  color: #ffd700;
+}
 
 /* Responsive Nav */
 @media (max-width: 768px) {
